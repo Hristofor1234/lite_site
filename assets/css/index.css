@@ -20,7 +20,7 @@ main hr {
     background-color: white;
 }
 
-main .hr2 {
+main hr.hr2 {
     overflow: hidden;
     height: 3px;
     border: 0;
@@ -86,9 +86,49 @@ main a:hover {
 
 main .grid_2 {
     padding:  0 30px 0   40px;
+    margin-top: 258px;
+}
+
+main .bigger {
+    font-size: 27.6px;
+    font-weight: 600;
+    color: rgb(23, 148, 152);
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+
+main .flex {
+    display: grid;
+    grid-template-columns: .5fr 2fr;
+    padding: 15px 0;
+}
+
+main .big_data {
+    font-size: 14.2px;
+    font-weight: 700;
+    font-family: revert;
+}
+
+main .big_text {
+    font-size: 15px;
+    font-weight: 700;
+    padding:  0 0 15px 0;
+}
+
+main .small_text {
+    font-size: 13px;
 }
 
 main .grid_3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+main .name_big {
+    font-weight: 700;
+    padding: 20px 0 10px 0 ;
+}
+
+main .small_grid ul li {
+    font-size: 13.5px;
 }
